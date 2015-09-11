@@ -1,0 +1,426 @@
+@import url(http://fonts.googleapis.com/css?family=Satisfy|Open+Sans:400,300,700);
+
+
+@font-face {
+    font-family: 'delicious-roman';
+    src: url('delicious-roman-webfont.eot');
+    src: url('delicious-roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('delicious-roman-webfont.woff2') format('woff2'),
+         url('delicious-roman-webfont.woff') format('woff'),
+         url('delicious-roman-webfont.ttf') format('truetype'),
+         url('delicious-roman-webfont.svg#deliciousroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'delicious_heavyregular';
+    src: url('delicious-heavy-webfont.eot');
+    src: url('delicious-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('delicious-heavy-webfont.woff2') format('woff2'),
+         url('delicious-heavy-webfont.woff') format('woff'),
+         url('delicious-heavy-webfont.ttf') format('truetype'),
+         url('delicious-heavy-webfont.svg#delicious_heavyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*================ body/global =================*/
+
+body {
+	background-color: rgb(0, 99, 99);
+}
+
+h2 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-family: 'delicious_heavyregular';
+	color: rgb(0, 99, 99) !important;
+	font-size: 42px;
+}
+
+/*================ end body/global =================*/
+
+/*================ header =================*/
+
+#hero {
+	height: 40em;
+	background-image: url(../img/Secret-Mountain-BG.jpg);
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+
+}
+
+.flex-container-line {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	background-color: transparent;
+   -webkit-align-items: row;
+	align-items: row;
+	clear: both;
+}
+
+.flex-item-line {
+	background-color: #00FFFF;
+	height: 1px;
+	width: 100%;
+	position: relative;
+	top: 30px;
+}
+
+.logo-elements-svg {
+	background-color: transparent;
+	height: 500px;
+	width: 500px;
+	position: relative;
+	top: 30px !important;
+	left: 10%;
+}
+
+.logo-k {
+	color: #00FFFF;
+}
+
+#hero > nav  {
+	border: 0px transparent;
+}
+
+#quote-svg {
+	position: relative;
+	top: -350px;
+	margin-left: 15%;
+	z-index: 2;
+	height: 70%;
+	width: 70%;
+	
+}
+
+.quote-fill-color {
+	fill: rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
+}
+
+.quote-author-fill-color {
+	fill: rgb(0, 99, 99);
+	color: rgb(0, 99, 99);
+}
+
+/*================ end header =================*/
+
+/*================ nav =================*/
+nav {
+	background-color: transparent !important;
+	border-radius: 0px !important;
+}
+
+.navlinks {
+	padding-top: 5px;
+}
+
+.glyphicon-globe {
+	color: rgb(0, 99, 99);
+	font-size: 36px;
+}
+
+#hero > nav > div > div > div.navbar-header > button {
+/*	border: solid 1px rgb(0, 99, 99);*/
+	background-color: transparent !important;
+	padding-left: 12px;
+}
+
+#hero > nav > div > div > div.navbar-header > button:active,
+#hero > nav > div > div > div.navbar-header > button:hover  {
+/*	border: solid 1px #00FFFF;*/
+	background-color: transparent !important;
+	padding-left: 12px;
+}
+
+.glyphicon-globe:hover,
+.glyphicon-globe:active {
+	color: #00FFFF;
+
+}
+
+.navbar-toggle {
+	border: 0px;
+	position: relative;
+	margin-right: 12%;
+}
+
+.navbar-header {
+	position: relative;
+	top: -460px;
+}
+
+#bs-example-navbar-collapse-1 {
+	position: relative;
+	top: -473px;
+	margin-right: 12% !important;
+}
+
+#bs-example-navbar-collapse-1 > ul > li.active {
+	background-color: transparent !important;
+	border-bottom: cyan 1px solid !important;
+
+}
+
+#bs-example-navbar-collapse-1 > ul > li > a {
+	color: rgb(0, 99, 99); !important;
+	background-color: transparent !important;
+	font-size: 18px;
+}
+
+#bs-example-navbar-collapse-1 > ul > li > a:active,
+#bs-example-navbar-collapse-1 > ul > li > a:hover {
+	color: rgb(255, 255, 255); !important;
+	background-color: transparent !important;
+}
+
+div#bs-example-navbar-collapse-1.navbar-collapse.navbar-right.collapse.in {
+	position: relative;
+	border-top: 0px;
+	left: 50%;
+	font-size: 18px;
+	line-height: 50em;
+}
+
+@media (max-width: 767px){
+	.move-right {
+	margin-left: 60%;
+	margin-top: 2px;
+	border-top: 0px;
+	}
+}
+
+@media (min-width: 768px){
+	.move-right {
+	float: right;
+	margin-right: 20%;
+	margin-top: 2px;
+	border-top: 0px;	
+	}
+}
+
+/*================ end nav =================*/
+
+/*================ logos section =================*/
+h1 {
+	display: none;
+}
+
+h2 {
+	font-family: 'delicious_heavyregular', sans-serif;
+}
+
+body > div > div {
+	background-color: white;
+	padding: 20px;
+
+}
+
+
+.logo-imgs {
+	width: 90%;
+	margin-left: 3em;
+	margin-right: 2em;
+	margin-bottom: 2em;
+}
+
+.freedom-of-m-row {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.african-wild-blurb-div {
+	margin-top: 2em;
+}
+
+body > div.logos-section.container > div.row.empyrean-row > h2 > a {
+	color: rgb(0, 99, 99) !important;
+}
+
+p {
+	font-family: 'delicious-roman', sans-serif;
+	font-size: 18px;
+	color: rgb(0, 99, 99);
+}
+
+@media (max-width: 767px){
+	.african-wild-blurb-div {
+	margin-top: 0em;
+	}
+	
+	.col-sm-6 .african-wild-div {
+		position: relative;
+		margin: 0 auto;
+	}
+
+	.logo-imgs {
+		position: relative;
+		margin: 0 auto;
+		width: 100%
+	}
+	
+	.logo-blurbs {
+		margin-top: 2em;
+	}
+}
+
+/*================ end logo section =================*/
+
+/*================ end photos section =================*/
+
+
+body > div:nth-child(3) > div > h2 > a {
+	color: white !important;
+	text-decoration: none;
+}
+
+.photos-row {
+	background-color: rgb(0, 99, 99)
+}
+
+/*================ end photos section =================*/
+
+/*================ carousel =================*/
+
+.glyphicon-chevron-left:hover,
+.glyphicon-chevron-right:hover {
+	color: #00FFFF;
+}
+
+.carousel {
+	border: 0px;
+	padding: 0px;
+}
+
+.carousel .item {
+	width: 100% !important;
+	height: 100%;
+}
+
+/*.slide3 {
+	margin-right: 20em;
+	margin-left: 20em;
+}*/
+
+/*.slide1 {
+	background-image: url(../img/Naia.jpg);
+}
+
+.slide2 {
+	background-image: url(../img/Clouds-Over-Town.jpg);
+}
+
+.slide3 {
+	background-image: url(../img/Cooper-Spur.jpg);
+}*/
+
+#carousel-example-generic > div {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	background-color: rgb(0, 99, 99);
+}
+
+#carousel-example-generic > a.left.carousel-control {
+	background-image: none;
+}
+
+#carousel-example-generic > a.right.carousel-control {
+	background-image: none;
+}
+
+/*================ end carousel =================*/
+/*================ apps =================*/
+
+.apps-container {
+	background-color: white;
+	color: rgb(0, 99, 99);
+}
+
+#apps {
+	text-decoration: none;
+	color: rgb(0, 99, 99);
+}
+
+/*================ end apps =================*/
+/*================ footer =================*/
+
+body > footer > div > div.col-sm-2.social > a > span {
+	color: white;
+	font-family: "delicious-roman";
+	font-size: 1em;
+}
+
+body > footer > div:nth-child(1) > div.col-sm-2.social.footer-col > a:nth-child(1) > span > i,
+body > footer > div:nth-child(1) > div.col-sm-2.social.footer-col > a:nth-child(3) > span > i,
+body > footer > div:nth-child(1) > div.col-sm-2.social.footer-col > a:nth-child(5) > span > i {
+	color: #00FFFF;
+}
+
+body > footer > div:nth-child(1) > div.col-xs-6.col-sm-3.contact-info.col-sm-offset-1 > div > a {
+	color: white;
+	font-family: "delicious-roman";
+	font-size: 1em;
+}
+
+body > footer > div:nth-child(1) > div.col-xs-6.col-sm-3.contact-info.col-sm-offset-1 > div > a:hover,
+body > footer > div:nth-child(1) > div.col-xs-6.col-sm-3.contact-info.col-sm-offset-1 > div > a:active {
+	color: #00FFFF;
+}
+
+#contact > a:nth-child(1) {
+	position: relative;
+	top: 1.25em;
+}
+
+.logo-elements-svg-footer {
+	height: 100px;
+}
+
+.footer-col {
+	margin-top: 30px;
+}
+
+.social {
+	margin-top: 3.5em;
+	margin-left: 5%;
+}
+
+@media (max-width: 767px) {
+	.logo-elements-svg-footer {
+		margin-left: 15%;
+	}
+
+	body > footer > div.row.social-media-xs.text-center > a > i {
+		color: white;
+		font-size: 48px;
+		margin-top: 1em;
+	}
+
+	body > footer > div.row.social-media-xs.text-center > a > i:hover,
+	body > footer > div.row.social-media-xs.text-center > a > i:active {
+		color: #00FFFF;
+	}
+}
+
+@media (min-width: 768px) {
+	body > footer > div.row.social-media-xs.text-center {
+		display: hidden;
+	}
+}
+
+body > footer > div:nth-child(3) > div > p {
+	color: white !important;
+	font-size: .85em;
+	margin-top: 2em;
+}
+/*================ end footer =================*/
+
