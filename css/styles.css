@@ -365,14 +365,15 @@ body > footer > div:nth-child(1) > div.col-sm-2.social.footer-col > a:nth-child(
 	color: #00FFFF;
 }
 
-body > footer > div:nth-child(1) > div.col-xs-6.col-sm-3.contact-info.col-sm-offset-1 > div > a {
+body > footer > div:nth-child(1) > div.col-xs-5.col-sm-3.contact-info.col-sm-offset-1 > div > a,
+body > footer > div:nth-child(1) > div.col-xs-7.col-sm-3.contact-info.col-sm-offset-1 > div > a {
 	color: white;
 	font-family: "delicious-roman";
 	font-size: 1em;
 }
 
-body > footer > div:nth-child(1) > div.col-xs-6.col-sm-3.contact-info.col-sm-offset-1 > div > a:hover,
-body > footer > div:nth-child(1) > div.col-xs-6.col-sm-3.contact-info.col-sm-offset-1 > div > a:active {
+body > footer > div:nth-child(1) > div.col-xs-5.col-sm-3.contact-info.col-sm-offset-1 > div > a:hover,
+body > footer > div:nth-child(1) > div.col-xs-7.col-sm-3.contact-info.col-sm-offset-1 > div > a:active {
 	color: #00FFFF;
 }
 
@@ -417,10 +418,5 @@ body > footer > div:nth-child(1) > div.col-xs-6.col-sm-3.contact-info.col-sm-off
 	}
 }
 
-body > footer > div:nth-child(3) > div > p {
-	color: white !important;
-	font-size: .85em;
-	margin-top: 2em;
-}
 /*================ end footer =================*/
 
