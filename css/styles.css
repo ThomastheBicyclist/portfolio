@@ -379,11 +379,8 @@ body > footer > div:nth-child(1) > div.col-xs-7.col-sm-3.contact-info.col-sm-off
 }
 
 body > footer > div:nth-child(1) > div.col-xs-5.col-sm-3.contact-info.col-sm-offset-1 > div > a:hover,
-<<<<<<< HEAD
 body > footer > div:nth-child(1) > div.col-xs-7.col-sm-3.contact-info.col-sm-offset-1 > div > a:hover,
 body > footer > div:nth-child(1) > div.col-xs-5.col-sm-3.contact-info.col-sm-offset-1 > div > a:active,
-=======
->>>>>>> master
 body > footer > div:nth-child(1) > div.col-xs-7.col-sm-3.contact-info.col-sm-offset-1 > div > a:active {
 	color: #00FFFF;
 }
