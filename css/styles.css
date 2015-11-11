@@ -274,7 +274,7 @@ p {
 
 /*================ end logo section =================*/
 
-/*================ end photos section =================*/
+/*================ photos section =================*/
 
 
 body > div:nth-child(3) > div > h2 > a {
@@ -359,9 +359,15 @@ body > footer > div > div.col-sm-2.social > a > span {
 	font-size: 1em;
 }
 
+body > footer > div:nth-child(1) > div.col-sm-2.social.footer-col {
+	min-width: 200px;
+}
+
 body > footer > div:nth-child(1) > div.col-sm-2.social.footer-col > a:nth-child(1) > span > i,
 body > footer > div:nth-child(1) > div.col-sm-2.social.footer-col > a:nth-child(3) > span > i,
-body > footer > div:nth-child(1) > div.col-sm-2.social.footer-col > a:nth-child(5) > span > i {
+body > footer > div:nth-child(1) > div.col-sm-2.social.footer-col > a:nth-child(5) > span > i,
+body > footer > div:nth-child(1) > div.col-sm-2.social.footer-col > a:nth-child(7) > span > i,
+body > footer > div:nth-child(1) > div.col-sm-2.social.footer-col > a:nth-child(9) > span > i {
 	color: #00FFFF;
 }
 
@@ -404,6 +410,7 @@ body > footer > div:nth-child(1) > div.col-xs-7.col-sm-3.contact-info.col-sm-off
 		color: white;
 		font-size: 48px;
 		margin-top: 1em;
+		margin-bottom: 1.5em;
 	}
 
 	body > footer > div.row.social-media-xs.text-center > a > i:hover,
@@ -415,6 +422,18 @@ body > footer > div:nth-child(1) > div.col-xs-7.col-sm-3.contact-info.col-sm-off
 @media (min-width: 768px) {
 	body > footer > div.row.social-media-xs.text-center {
 		display: hidden;
+	}
+}
+
+@media (max-width: 400px) {
+	body > footer > div.row.social-media-xs.text-center > a > i {
+		font-size: 36px;
+	}
+}
+
+@media (max-width: 350px) {
+	body > footer > div.row.social-media-xs.text-center > a > i {
+		font-size: 24px;
 	}
 }
 
