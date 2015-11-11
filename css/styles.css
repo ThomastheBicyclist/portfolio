@@ -387,12 +387,12 @@ body > footer > div:nth-child(1) > div.col-xs-7.col-sm-3.contact-info.col-sm-off
 	font-size: 1em;
 }
 
-/*body > footer > div:nth-child(1) > div.col-xs-5.col-sm-3.contact-info.col-sm-offset-1 > div > a:hover,
+body > footer > div:nth-child(1) > div.col-xs-5.col-sm-3.contact-info.col-sm-offset-1 > div > a:hover,
 body > footer > div:nth-child(1) > div.col-xs-7.col-sm-3.contact-info.col-sm-offset-1 > div > a:hover,
 body > footer > div:nth-child(1) > div.col-xs-5.col-sm-3.contact-info.col-sm-offset-1 > div > a:active,
 body > footer > div:nth-child(1) > div.col-xs-7.col-sm-3.contact-info.col-sm-offset-1 > div > a:active {
 	color: #00FFFF;
-}*/
+}
 
 #contact > a:nth-child(1) {
 	position: relative;
@@ -410,6 +410,16 @@ body > footer > div:nth-child(1) > div.col-xs-7.col-sm-3.contact-info.col-sm-off
 .social {
 	margin-top: 3.5em;
 	margin-left: 5%;
+}
+
+body > footer > div:nth-child(3) > div > p {
+	color: white;
+	font-size: .75em;
+}
+
+body > footer > div:nth-child(3) > div {
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 @media (max-width: 767px) {
